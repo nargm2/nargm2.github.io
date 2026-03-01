@@ -11,7 +11,7 @@ p {
 }
 
 section.hero {
-  background-image: url("./pflower.jpg");
+  background-image: url("pflower.jpg");
   background-size: cover;
   background-position: center;
   height: 1000px;
