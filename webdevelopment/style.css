@@ -9,3 +9,44 @@ p {
   color: #9C7178;
   font-size: 25px;
 }
+
+section.hero {
+  background-image: url("pflower.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  padding: 50px;
+  text-align: right;
+  border: 5px solid #000000;
+}
+
+section.hero h1 {
+  color: #2D1115;
+  font-family: Courier New, monospace;
+  font-size: 100px;
+  padding-top: 100px;
+}
+
+section.hero p {
+  color: #ffffff;
+  font-family: Garamond, serif;
+  font-size: 40px;
+}
+
+section.hero a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #9C7178;
+  color: #ffffff;
+  border: 1px solid #2D1115;
+  text-decoration: none;
+  font-family: Garamond, serif;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+section.hero a:hover {
+  background-color: #2D1115;
+  text-decoration: underline;
+}
