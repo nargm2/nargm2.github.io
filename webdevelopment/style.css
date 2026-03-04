@@ -51,3 +51,22 @@ section.hero a:hover {
   background-color: #2D1115;
   text-decoration: underline;
 }
+
+section.resume-link button {
+  padding: 15px;
+  margin: 5px;
+  border:#2D1115 solid 2px;
+  background-color:#9C7178;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+section.resume-link button:hover {
+  background-color: #2D1115;
+  color: #ffffff;
+  text-decoration: underline;
+}
