@@ -126,3 +126,24 @@ video {
   border-radius: 5px;
   box-shadow: #000000 5px 5px 10px;
 }
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer-icon {
+  height: 20px;
+  width: 20px;
+}
+
+footer {
+  background-color: #F9F1F3;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
