@@ -147,3 +147,45 @@ footer {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
+
+
+@media print {
+  header, .headshot, video, .resume-link button {
+    display: none !important;
+  }
+
+  * {
+    color: #000000 !important;
+    background: transparent !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    width: auto !important;
+    float: none !important;
+    position: static !important;
+  }
+
+  html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  main, section, article, p {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  @page {
+    margin: 1in; 
+  }
+
+  footer {
+    display: block;
+    margin-top: 50px;
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+    text-align: center;
+  }
+}
