@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+Name: Nevaeh Randles
+Date: 
+Course: Web Design 4355
+Description:
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>My Starter Template</title>
+    <!--The following contains code to include an external CSS link for styling(<link rel="stylesheet" href="style.css">)-->
+</head>
+
+<body>
+
+<header>
+
+  <img src="logo.png" alt="Nevaeh Alexis Logo">
+
+  <nav>
+    
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="a.html">Portfolio</a>
+        <ul>
+          <li><a href="project1.html">Career Development Events</a></li>
+          <li><a href="project2.html">Columbia for Christ</a></li>
+          <li><a href="project3.html">Nature Photography</a></li>
+        </ul>
+      </li>
+      <li><a href="reflection.html">Reflection</a></li>
+      <li><a href="b.html">Contact</a></li>
+    </ul>
+
+  </nav>
+
+<!--This section will contain the logo and navigation-->
+</header>
+
+    <section class="contact-section">
+        <h1 class="title-back">Contact Me</h1>
+        <p></p>
+
+        <form>
+            <div class="form-group">
+                <label for="title-dropdown">Title*</label>
+                <select id="title-dropdown" name="title-dropdown" required>
+                    <option value="" disabled selected>Select your title</option>
+                    <option value="mr">Mr.</option>
+                    <option value="ms">Ms.</option>
+                    <option value="mx">Mrs.</option>
+                    <option value="dr">Dr.</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="full-name">Full Name*</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="project-type">Inquiry Type*</label>
+                <select id="project-type" name="project-type" required>
+                    <option value="" disabled selected>Choose a category</option>
+                    <option value="web">Digital Photography</option>
+                    <option value="design">Web Design</option>
+                    <option value="other">Position Opening</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message*</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </section>
+
+<footer>
+  <div class="contact-item">
+    <img src="phone.png" alt="Phone" class="footer-icon">
+    <span>(123) 456-7890</span>
+  </div>
+
+  <div class="contact-item">
+    <img src="email.png" alt="Email" class="footer-icon">
+    <span>fake@gmail.com</span>
+  </div>
+    <!--This section is for all content on the bottom of the page (i.e. copyright information, contact info, etc.)-->
+</footer>
+
+</body>

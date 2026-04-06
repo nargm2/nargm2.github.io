@@ -189,3 +189,60 @@ footer {
     text-align: center;
   }
 }
+
+section.contact-section {
+  background-color: #F9F1F3;
+  padding: 50px;
+  text-align: center;
+}
+
+section.contact-section h1 {
+  color: #2D1115;
+  font-family: Courier New, monospace;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+section.contact-section form {
+  display: inline-block;
+  text-align: left;
+  max-width: 500px;
+  width: 100%;
+}
+
+section.contact-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: Garamond, serif;
+  color: #000000;
+  font-size: 18px;
+}
+
+section.contact-section input,
+section.contact-section select,
+section.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-family: Garamond, serif;
+  font-size: 16px;
+}
+
+section.contact-section button {
+  padding: 10px 20px;
+  background-color: #9C7178;
+  color: #ffffff;
+  border: 1px solid #2D1115;
+  font-family: Garamond, serif;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section.contact-section button:hover {
+  background-color: #2D1115;
+  color: #ffffff;
+  text-decoration: underline;
+}
