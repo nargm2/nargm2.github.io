@@ -63,3 +63,26 @@ img {
     width: 75px;
     padding: 10px 15px;
 }
+
+.mobile-menu {
+    display: none;
+}
+
+#menu-toggle:checked ~ .mobile-menu {
+    display: block;
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .mobile-menu ul {
+    display: flex;
+    gap: 1rem;
+  }
+}
