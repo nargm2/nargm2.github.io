@@ -68,10 +68,6 @@ img {
     display: none;
 }
 
-#checkbox {
-    display: none;
-}
-
 #menu-toggle:checked ~ .mobile-menu {
     display: block;
 }
@@ -80,6 +76,10 @@ img {
   .hamburger {
     display: none;
   }
+
+#checkbox {
+    display: none;
+}
 
   .mobile-menu {
     display: block;
