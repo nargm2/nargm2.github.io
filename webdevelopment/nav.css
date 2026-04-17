@@ -64,6 +64,16 @@ img {
     padding: 10px 15px;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+.hamburger-label {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+}
+
 .mobile-menu {
     display: none;
 }
@@ -73,16 +83,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  .hamburger {
+  .hamburger-container {
     display: none;
-  }
-
-  .mobile-menu {
-    display: block;
-  }
-
-  .mobile-menu ul {
-    display: flex;
-    gap: 1rem;
   }
 }
