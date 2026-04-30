@@ -3,9 +3,19 @@ body {
 }
 
 h1 {
-  font-family: Courier New, monospace;
+  font-family: DynaPuff, cursive;
+  /* Custom font from Google Fonts applied to site */
   color: #2D1115;
   font-size: 55px;
+}
+
+/* Custom styles for all <h2> elements */
+h2 {
+  font-family:'Courier New', Courier, monospace;
+  color: #2D1115;
+  font-size: 35px;
+  text-shadow: 1px 1px 2px #ffcad4;
+  letter-spacing: 1px;
 }
 
 p {
@@ -40,7 +50,8 @@ section.hero {
 
 section.hero h1 {
   color: #2D1115;
-  font-family: Courier New, monospace;
+  font-family: DynaPuff, cursive;
+/* Custom font from Google Fonts applied to site */
   font-size: 100px;
   padding-top: 100px;
 }
